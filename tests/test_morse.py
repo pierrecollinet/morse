@@ -61,6 +61,7 @@ class TestMorse(unittest.TestCase):
         self.assertEqual(Morse().decode(".-."), "R")
 
     def test_s(self):
+
         self.assertEqual(Morse().decode("..."), "S")
 
     def test_t(self):
